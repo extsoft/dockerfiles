@@ -1,4 +1,4 @@
-#!/usr/bin/env bash -ex
+#!/usr/bin/env bash -e
 
 IMAGES=(
     j8m35p0
@@ -11,6 +11,12 @@ rultor-runtime() {
 }
 
 for image in ${IMAGES[@]}
-do
-    rultor-runtime ${image}
+do  
+    echo -n "Do you want to rebuild '$image' image? [y/n]: "
+    read answer
+    if [ "$answer" == "y" ]; then
+        set -x
+        rultor-runtime ${image}
+        set +x
+    fi
 done
