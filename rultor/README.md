@@ -10,15 +10,17 @@ repository.
 The table below describes abbreviations from images tags and Dockerfile names:
 
 Tool | Abbreviation
-:--- | :---:
-jdk 8 | j8
-maven 3.5 | m35
-0pdd 0.x | p0
-ruby 2.4 | r24
-bats 0.4 | b04
+--- | ---
+jdk 8 | `j8`
+maven 3.5 | `m35`
+0pdd 0.x | `p0`
+ruby 2.4 | `r24`
+bats 0.4 | `b04`
+git 2.x | `g2`
 
 ## Tags
 Dockerfile | Tag
---- | :---:
-[j8m35p0.dockerfile](j8m35p0.dockerfile) | extsoft/rultor-runtime:j8m35p0
-[r24b04p0.dockerfile](r24b04p0.dockerfile) | extsoft/rultor-runtime:r24b04p0
+--- | ---
+[j8m35p0.dockerfile](j8m35p0.dockerfile) | `extsoft/rultor-runtime:j8m35p0`
+[r24b04p0.dockerfile](r24b04p0.dockerfile) | `extsoft/rultor-runtime:r24b04p0`
+[r24b04p0g2.dockerfile](r24b04p0g2.dockerfile) | `extsoft/rultor-runtime:r24b04p0g2`
